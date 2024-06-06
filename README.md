@@ -17,7 +17,7 @@
  - [Развернуть приложение с Docker](#Как-развернуть-приложение-с-Docker)  
  - [Развернуть приложение без Docker](#Как-развернуть-приложение-без-Docker)
 
-![App preview](https://github.com/ReYaNOW/ReYaNOW/blob/main/Images/stats_preview_image.png?raw=true)
+![App preview](https://github.com/ReYaNOW/ReYaNOW/blob/main/Images/stats_preview_img.png?raw=true)
 
 ## Как развернуть приложение с Docker
 1. Склонировать репозиторий
