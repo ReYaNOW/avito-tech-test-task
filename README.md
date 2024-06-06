@@ -42,7 +42,7 @@ mv .env.example .env
 make compose-setup
 ```
 
-4. Запустить
+4. Запустить локальный сервер и открыть http://127.0.0.1:8080
   
 ```
 make compose-start
@@ -50,6 +50,8 @@ make compose-start
 
 
 ## Как развернуть сервис без Docker
+Для этого необходим [Poetry](https://python-poetry.org/docs/#installing-with-pipx)  
+  
 1. Склонировать репозиторий
 
 ```
@@ -77,7 +79,7 @@ mv .env.example .env
 make install
 ```
 
-5. Запустить локальный сервер для разработки
+5. Запустить локальный сервер и открыть http://127.0.0.1:8080
 
 ```
 make start
