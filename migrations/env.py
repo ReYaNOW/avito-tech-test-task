@@ -5,7 +5,7 @@ from sqlalchemy import pool
 
 from alembic import context
 
-from stats_counter.statistics.config import DATABASE_URL
+from stats_counter.config import DATABASE_URL
 from stats_counter.statistics.models import metadata
 
 import os

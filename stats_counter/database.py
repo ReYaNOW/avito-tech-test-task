@@ -6,7 +6,7 @@ from sqlalchemy.ext.asyncio import (
     create_async_engine,
 )
 
-from stats_counter.statistics.config import DATABASE_URL
+from stats_counter.config import DATABASE_URL
 
 engine = create_async_engine(DATABASE_URL)
 async_session_maker = async_sessionmaker(engine, expire_on_commit=False)
