@@ -1,9 +1,14 @@
 ### Описание
 Тестовое задание для avito-tech
 
+Микросервис для сбора статистики по откликам и просмотрам. 
+Сервис взаимодействует с клиентом при помощи REST API.  
+  
+Реализована возможность запуска в Docker.  
+Реализована валидация входных данных.
+
 Стек: Python3.11, FastApi, SqlAlchemy, Alembic, Asyncpg, Docker
 
-### Установка
 
 # Использование
 
@@ -12,7 +17,7 @@
  - [Развернуть приложение с Docker](#Как-развернуть-приложение-с-Docker)  
  - [Развернуть приложение без Docker](#Как-развернуть-приложение-без-Docker)
 
-![ВСТАВИТЬ КАРТИНКУ](https://github.com/ReYaNOW/ReYaNOW/blob/main/task_manager_preview.pnggg?raw=true)
+![App preview](https://github.com/ReYaNOW/ReYaNOW/blob/main/Images/stats_preview.png?raw=true)
 
 ## Как развернуть приложение с Docker
 1. Склонировать репозиторий
