@@ -1,5 +1,5 @@
-from fastapi import Depends
-from fastapi import FastAPI
+from fastapi import FastAPI, Depends
+from fastapi.responses import RedirectResponse
 from sqlalchemy import insert
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -8,9 +8,14 @@ from stats_counter.statistics.models import Statistic
 from stats_counter.statistics.router import router
 from stats_counter.utils import generate_data
 
-app = FastAPI(title='Trading App')
+app = FastAPI(title='Statistic counter')
 
 app.include_router(router)
+
+
+@app.get("/")
+async def docs_redirect():
+    return RedirectResponse(url='/docs')
 
 
 @app.post(
