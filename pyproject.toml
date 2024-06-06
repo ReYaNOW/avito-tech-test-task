@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "y"
+version = "0.1.0"
+description = ""
+authors = ["Sergei <reyangood@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+alembic = "^1.13.1"
+sqlalchemy = "^2.0.30"
+python-dotenv = "^1.0.1"
+asyncpg = "^0.29.0"
+faker = "^25.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
