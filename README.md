@@ -16,7 +16,7 @@
 # Использование
 
 
- - Открыть задеплоенный на render.com [тестовый вариант](https://avito-tech-test-task.onrender.com)
+ - Открыть задеплоенный [тестовый вариант](https://avito-tech-test-task.onrender.com)
  - [Развернуть сервис с Docker](#Как-развернуть-сервис-с-Docker)  
  - [Развернуть сервис без Docker](#Как-развернуть-сервис-без-Docker)
 
