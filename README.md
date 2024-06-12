@@ -10,7 +10,7 @@
 Стек: Python3.11, FastApi, SqlAlchemy, Alembic, Asyncpg, Docker
 
 ## Документация
-Открыть документацию можно по [ссылке](https://avito-tech-test.onrender.com/docs)  
+Открыть документацию можно по [ссылке](https://test-task-avito-tech.onrender.com/docs)  
 Там же можно поделать запросы к сервису
 
 # Использование
