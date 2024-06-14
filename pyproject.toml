@@ -15,6 +15,9 @@ asyncpg = "^0.29.0"
 faker = "^25.5.0"
 
 
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
