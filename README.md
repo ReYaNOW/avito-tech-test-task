@@ -1,3 +1,5 @@
+[![Linter check](https://github.com/ReYaNOW/avito-tech-test-task/actions/workflows/pyci.yml/badge.svg)](https://github.com/ReYaNOW/avito-tech-test-task/actions/workflows/pyci.yml)
+
 ## Описание
 Тестовое задание для avito-tech
 
