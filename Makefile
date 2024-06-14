@@ -37,3 +37,6 @@ compose-stop:
 
 compose-down:
 	docker compose down --remove-orphans || true
+
+lint:
+	flake8 stats_counter
